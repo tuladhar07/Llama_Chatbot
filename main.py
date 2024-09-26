@@ -17,10 +17,7 @@ with st.sidebar:
     # Add the logo next to the title
     st.markdown(
         """
-        <div style="display: flex; align-items: center;">
-            <img src="https://palmmind.com/wp-content/uploads/2022/01/Palm-Mind-Technology-01.png" style="width: 100px; height: 70px; margin-right: 0px;">
-            <h1 style="margin: 0;">bot</h1>
-        </div>
+       
         """, 
         unsafe_allow_html=True
     )
@@ -55,7 +52,7 @@ def main():
         st.session_state['current_question'] = None  # Track the current question for user info collection
 
     # Step 1: Display welcome message and instructions
-    st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Welcome to PalmMindbot!</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Welcome to Llamabot!</h1>", unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center; color: #555;'>🤖 Ask any question about the PDF or book an appointment 📅</h2>", unsafe_allow_html=True)
 
     # Display previous queries and responses
