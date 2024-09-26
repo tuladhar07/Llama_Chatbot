@@ -1,6 +1,6 @@
-# PalmMindbot - Conversational PDF Assistant
+# Llamabot - Conversational PDF Assistant
 
-Welcome to **PalmMindbot**, a conversational AI application designed to assist with PDF-based queries and appointment scheduling. This project allows users to upload PDF documents, ask questions related to the content, and even book appointments through a user-friendly interface powered by Streamlit. The system also provides conversational features, where it can store conversation history and interact dynamically with users.
+Welcome to **Llamabot**, a conversational AI application designed to assist with PDF-based queries and appointment scheduling. This project allows users to upload PDF documents, ask questions related to the content, and even book appointments through a user-friendly interface powered by Streamlit. The system also provides conversational features, where it can store conversation history and interact dynamically with users.
 
 ## Why LLaMA Instead of OpenAI?
 I chose to use the LLaMA model in this project instead of OpenAI's API due to the cost implications of using OpenAI. OpenAI's API incurs charges based on usage, which can accumulate over time, especially for a conversational assistant that processes many queries. By opting for LLaMA, a local model, I can reduce the cost associated with running the bot while maintaining strong performance for natural language understanding and generation tasks. This decision ensures the bot remains cost-effective for long-term use.
@@ -44,7 +44,7 @@ Make sure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/tuladhar07/PalmMind_Chatbot/palmmindbot.git
+   git clone https://github.com/tuladhar07/Llama_Chatbot/Llamabot.git
    
 2. Install dependencies:
    ```bash
